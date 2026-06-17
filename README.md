@@ -1,62 +1,64 @@
 # AutoText Mod
 
-**AutoText** es un mod para Minecraft 1.8.9 (Forge) que permite crear macros de texto y comandos, asignarlos a combinaciones de teclas y ejecutarlos al instante. Ideal para agilizar la comunicación y el uso de comandos en servidores.
+**AutoText** is a mod for Minecraft 1.8.9 (Forge) that lets you create text and command macros, assign them to key combinations, and execute them instantly. Perfect for speeding up communication and command usage on servers.
 
-## Características
-- 📝 Crea macros con texto o comandos (prefijo `/` automático).
-- ⌨️ Asigna teclas con modificadores: **Ctrl**, **Shift**, **Alt**.
-- 🎨 Interfaz gráfica limpia y fácil de usar.
-- 💾 Guardado automático en JSON.
-- 🔌 Sin conflictos con otros mods (usa eventos de Forge).
+## Features
+- 📝 Create macros with text or commands (automatic `/` prefix for commands).
+- ⌨️ Assign keys with modifiers: **Ctrl**, **Shift**, **Alt**.
+- 🎨 Clean and easy-to-use graphical interface.
+- 💾 Automatic JSON saving.
+- 🔌 No conflicts with other mods (uses Forge events).
 
-## Capturas de pantalla
+## Screenshots
+### Gui Chat Button
+![Open Autotext](screenshots/openautotex_principal.png)
+### Main panel
+![Main panel](screenshots/panel_principal.png)
 
-### Panel principal
-![Panel principal](screenshots/panel_principal.png)
+### Macro editor
+![Macro editor](screenshots/editor.png)
 
-### Editor de macros
-![Editor de macros](screenshots/editor.png)
+## Installation
+1. Download the `.jar` file from the [Releases](../../releases) section.
+2. Place it in the `mods` folder of your Minecraft Forge 1.8.9 client.
+3. Enjoy!
 
-## Instalación
-1. Descarga el archivo `.jar` desde la sección [Releases](../../releases).
-2. Colócalo en la carpeta `mods` de tu cliente de Minecraft Forge 1.8.9.
-3. ¡Disfruta!
+## Usage
+- Press the key assigned to your macro (with or without modifiers) to send the message or command.
+- **Open the configuration panel** by clicking the **"Config AutoText"** button located at the **top‑right corner of the chat screen** (when you press `T` or `/` to open the chat).
+- From there, you can create, edit, enable/disable, or delete macros.
 
-## Uso
-- Pulsa la tecla asignada a tu macro (con o sin modificadores) para enviar el mensaje o comando.
-- Abre el panel de configuración desde el botón **"Config AutoText"** en la pantalla del chat.
+## Macro Configuration
+Each macro has the following fields:
 
-## Configuración de macros
-Cada macro tiene los siguientes campos:
+| Field        | Description |
+|--------------|-------------|
+| Name         | Macro identifier. |
+| Text         | Message or command to send (max 250 characters). |
+| Key          | Activation key (e.g., `H`, `C`, `F1`). |
+| Modifiers    | Ctrl, Shift, Alt (you can combine multiple). |
+| Command      | If enabled, automatically adds `/` at the beginning. |
+| Enabled      | Enables or disables the macro without deleting it. |
 
-| Campo       | Descripción |
-|-------------|-------------|
-| Nombre      | Identificador del macro. |
-| Texto       | Mensaje o comando a enviar (máx. 250 caracteres). |
-| Tecla       | Tecla de activación (ej. `H`, `C`, `F1`). |
-| Modificadores| Ctrl, Shift, Alt (puedes combinar varios). |
-| Comando     | Si está activado, añade `/` al inicio automáticamente. |
-| Activado    | Habilita o deshabilita el macro sin borrarlo. |
+## Example Default Macros
+| Name        | Key | Modifiers | Type    | Text |
+|-------------|-----|-----------|---------|------|
+| Help        | H   | -         | Command | `/help` |
+| Clan Chat   | C   | Ctrl      | Text    | `Hello team!` |
+| Gamemode    | G   | Alt       | Command | `/gamemode creative` |
 
-## Ejemplo de macros predefinidos
-| Nombre     | Tecla | Modificadores | Tipo    | Texto |
-|------------|-------|---------------|---------|-------|
-| Soporte    | H     | -             | Comando | `/help` |
-| Clan Chat  | C     | Ctrl          | Texto   | `Hola equipo!` |
-| Gamemode   | G     | Alt           | Comando | `/gamemode creative` |
-
-## Compatibilidad
+## Compatibility
 - ✅ Forge 1.8.9
-- ✅ Cliente y servidor (solo cliente, no requiere instalación en el servidor)
-- ✅ Compatible con la mayoría de mods (OptiFine, JEI, etc.)
+- ✅ Client and server (client‑side only, no server installation required)
+- ✅ Compatible with most mods (OptiFine, JEI, etc.)
 
-## Desarrollo
-Este mod está desarrollado en Java usando la API de Minecraft Forge. El código está disponible bajo licencia MIT.
+## Development
+This mod is developed in Java using the Minecraft Forge API. The source code is available under the MIT license.
 
-## Créditos
-- **Autor**: CewlDown
-- **Discord**: [Únete a nuestra comunidad](https://discord.gg/sTFPcZZJFU)
+## Credits
+- **Author**: CewlDown
+- **Discord**: [Join our community](https://discord.gg/sTFPcZZJFU)
 
 ---
 
-⭐ ¡Si te gusta el mod, no olvides dejar una estrella en GitHub!
+⭐ If you like the mod, don't forget to leave a star on GitHub!
