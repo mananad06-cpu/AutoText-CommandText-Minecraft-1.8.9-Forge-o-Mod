@@ -11,7 +11,7 @@
 
 ## Screenshots
 ### Gui Chat Button
-![Open Autotext]([screenshots/openautotex_principal.png](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/145975fe02ba3ea4f0678ffabd99364a9803844e/openautotex_principal.png))
+![Open Autotext](screenshots/openautotex_principal.png](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/145975fe02ba3ea4f0678ffabd99364a9803844e/openautotex_principal.png)
 ### Main panel
 ![Main panel](screenshots/panel_principal.png)
 
