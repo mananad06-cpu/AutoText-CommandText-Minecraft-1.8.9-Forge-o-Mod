@@ -13,7 +13,7 @@
 ### Gui Chat Button
 ![Open Autotext](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/145975fe02ba3ea4f0678ffabd99364a9803844e/openautotex_principal.png)
 ### Main panel
-![Main panel]()
+![Main panel](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/72f97510cf64369f96892bf8aec62013094c1d76/panel_principal.png)
 
 
 ### Macro editor
