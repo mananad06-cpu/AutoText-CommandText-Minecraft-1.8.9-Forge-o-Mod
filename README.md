@@ -13,10 +13,11 @@
 ### Gui Chat Button
 ![Open Autotext](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/145975fe02ba3ea4f0678ffabd99364a9803844e/openautotex_principal.png)
 ### Main panel
-![Main panel](screenshots/panel_principal.png)
+![Main panel]()
+
 
 ### Macro editor
-![Macro editor](screenshots/editor.png)
+![Macro editor](https://github.com/mananad06-cpu/AutoText-CommandText-Minecraft-1.8.9-Forge-o-Mod/blob/9eac510e74fbc0412dd5e00d4ab3d8587366d804/editor.png)
 
 ## Installation
 1. Download the `.jar` file from the [Releases](../../releases) section.
